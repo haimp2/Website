@@ -109,12 +109,7 @@ body{
     font-weight: lighter;
 }
 
-.header-text-wrapper{
-    /* align-self: flex-end;
-    justify-self: center;
-    display: inline-block; */
-    
-}
+
 
 .img-wrapper img{
     border-radius: 50%;
@@ -245,7 +240,7 @@ a img:hover{
     cursor: pointer;
     transition: 0.3s;
     width:100%;
-    width: 279px;
+    width: 244px;
     margin: 10px;
 
   }
@@ -335,6 +330,7 @@ a img:hover{
 .project-container{
     background-color: rgba(190, 189, 189, 0.767);   
     padding: 10px 0 ;
+    margin-bottom: 8px;
 }
 
 
@@ -430,6 +426,10 @@ a img:hover{
 
     .header-text-wrapper h1{
         font-size: 62px;
+    }
+
+    .myImage{
+        width: 279px;
     }
 
 
