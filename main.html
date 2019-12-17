@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <title>Haim petel</title>
+</head>
+
+<body>
+
+    <ul class="sidebar">
+        <li class="current"><a href="#top" class="scroll-to side-bar-li"><span class="side-bar-text">About</span><i
+                    class="large material-icons" aria-hidden="true">face</i></a></li>
+        <li class=""><a href="#skills" class="scroll-to side-bar-li"><span class="side-bar-text">Skills</span><i
+                    class="large material-icons" aria-hidden="true">code</i></a></li>
+        <li class=""><a href="#projects" class="scroll-to side-bar-li"><span class="side-bar-text">Projects</span><i
+                    class="large material-icons" aria-hidden="true">work</i></a></li>
+        <li class=""><a href="#contact-me" class="scroll-to side-bar-li"><span class="side-bar-text">Contact</span><i
+                    class="large material-icons" aria-hidden="true">local_phone</i></a></li>
+    </ul>
+
+    <div class="container">
+        <div class="header-wrapper" id="top">
+
+            <!-- regular nav -->
+            <div class="nav-wrapper" id="topnav">
+                <a href="#top" id="about-top" class="scroll-to">About</a>
+                <a href="#skills" id="skills-top" class="scroll-to">Skills</a>
+                <a href="#projects" id="software-top" class="scroll-to">Software Projects</a>
+                <a href="#contact-me" id="contact-me-top" class="scroll-to">Contact me</a>
+            </div>
+            <div class="bottom-header">
+                <div class="header-text-wrapper">
+                    <h1>Haim Petel</h1>
+                </div>
+                <div class="img-wrapper">
+                    <img src="imges/My-pic.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="about-wrapper" id="about">
+            <div class="bubble-text-wrapper">
+                <h1>Hey!</h1>
+                <p>
+                    My name is <strong>Haim Petel</strong> and I'm a 3 rd. year B.Sc. Computer Science student. I have a
+                    great passion
+                    for software and In this page you can find some of my software projects.
+                </p>
+            </div>
+        </div>
+
+        <div class="skills-wrapper" id="skills">
+            <div class="label-wrapper">
+                <h1 class="label-text">Skills</h1>
+            </div>
+            <div class="cards-container">
+                <div class="card" style="background-color:#f7f7f7;">
+                    <h4>Programming languages:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Android</li>
+                        <li>C++</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <div class="card" style="background-color:#f7f7f7;">
+                    <h4>IDE:</h4>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>Eclipse</li>
+                        <li>PyCharm</li>
+                        <li>Android Studio</li>
+                        <li>WebStorm</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="card" style="background-color:#f7f7f7;">
+                    <h4>DB:</h4>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>SQLite</li>
+                        <li>MongoDB</li>
+                    </ul>
+
+                    <h4>Design Programs:</h4>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="software-projects-wrapper" id="projects">
+            <div class="label-wrapper">
+                <h1 class="label-text">Software Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="bubbles-wrapper">
+                    <div class="bubble-text-wrapper">
+                        <h4>Shop Management System - Java</h4>
+                        <p>- Led a team of five students in designing, coding and implementing the system.
+                            <br>- Developed the system using different design patterns and using SQLite database
+                            <br>- Created architecture and design documents using sequence, use case and class diagrams.
+                            <br>- Git Link: <a
+                                href="https://github.com/haimp2/Pet-shop-management-system">https://github.com/haimp2/Pet-shop-management-system</a>
+                        </p>
+                    </div>
+
+                    <div class="image-model-container">
+                        <img class="myImg" src="/imges/PetShopProjectPics/Main.jpg" style="width:100%;max-width:250px">
+                        <img class="myImg" src="/imges/PetShopProjectPics/Page1.jpg" style="width:100%;max-width:250px">
+                        <img class="myImg" src="/imges/PetShopProjectPics/page2.jpg" style="width:100%;max-width:250px">
+                        <img class="myImg" src="/imges/PetShopProjectPics/page3.jpg" style="width:100%;max-width:250px">
+                    </div>
+
+
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-me-wrapper" id="contact-me">
+            <div class="contact-me-label-warpper">
+                <h1 class="label-text-opp">Contact Me</h1>
+            </div>
+            <div class="logos-wrapepr">
+                <a href="https://github.com/haimp2"><img src="imges\Group 15.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/haim-petel/"><img src="imges/Group 16.png" alt=""></a>
+                <a href="mailto: haimp2@gmial.com"><img src="imges/Group 17.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
