@@ -428,6 +428,10 @@ a img:hover{
         background-color: rgba(0,0,0,0.9);
     }
 
+    .header-text-wrapper h1{
+        font-size: 62px;
+    }
+
 
    
 }
