@@ -135,7 +135,7 @@ body{
 
 
 .bubble-text-wrapper{
-    width: 46rem;
+    width: 40rem;
     display: block;
     padding: 20px;
     border-radius: 20px;
@@ -450,4 +450,8 @@ a img:hover{
         width:auto; 
       }
    
+      .image-model-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 }
