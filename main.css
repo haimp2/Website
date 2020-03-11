@@ -262,12 +262,22 @@ a img:hover{
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   }
   
+
+  .appImg {
+    height: auto; 
+    width: auto; 
+    max-width: 150px;
+    max-height: 200px;
+  }
+
   /* Modal Content (Image) */
   .modal-content {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
+    max-height:80%;
+    width:auto; 
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
