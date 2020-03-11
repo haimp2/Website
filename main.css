@@ -424,7 +424,6 @@ a img:hover{
         display: none;
         position: fixed;
         z-index: 1;
-        padding-top: 50%;
         left: 0;
         top: 0;
         width: 100%;
@@ -442,6 +441,13 @@ a img:hover{
         width: 279px;
     }
 
-
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 350px;
+        max-height:80%;
+        width:auto; 
+      }
    
 }
